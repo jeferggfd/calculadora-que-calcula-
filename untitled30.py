@@ -16,8 +16,8 @@ st.set_page_config(page_title="Calculadora Matemática de Pasita", page_icon="�
 st.title("🧮 Mi Calculadora Matemática Interactiva")
 st.markdown("Bienvenida a la aplicación de operaciones matemáticas con **Streamlit**.")
 
-# --- BARRA LATERAL (Menú de Opciones) ---
-st.sidebar.title("Menú de Operaciones")
+# --- BARRA LATERAL (menu de operacione) ---
+st.sidebar.title("pagina de matematicas pasita")
 modo = st.sidebar.selectbox(
     "Selecciona el tipo de operación:",
     ["Operaciones Básicas", "Ecuación Cuadrática (Ax² + Bx + C)", "Geometría Básica"]
@@ -25,7 +25,7 @@ modo = st.sidebar.selectbox(
 
 st.sidebar.markdown("---")
 st.sidebar.text("Desarrollado para Programación 🚀")
-
+st.sidebar
 
 # --- SECCIÓN 1: OPERACIONES BÁSICAS ---
 if modo == "Operaciones Básicas":
