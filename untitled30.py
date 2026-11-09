@@ -9,7 +9,6 @@ st.markdown("Bienvenida a la aplicación de operaciones matemáticas con **Strea
 
 # --- BARRA LATERAL (Menú de Opciones) ---
 st.sidebar.title("Menú de Operaciones")
-st.sidebar.image("foto.jpg", caption="Mi logo lateral")
 modo = st.sidebar.selectbox(
     "Selecciona el tipo de operación:",
     ["Operaciones Básicas", "Ecuación Cuadrática (Ax² + Bx + C)", "Geometría Básica"]
