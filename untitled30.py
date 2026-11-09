@@ -25,7 +25,7 @@ modo = st.sidebar.selectbox(
 
 st.sidebar.markdown("---")
 st.sidebar.text("Desarrollado para Programación 🚀")
-st.sidebar.image("images.jpg")
+st.sidebar.image("foto.jpg")
 
 # --- SECCIÓN 1: OPERACIONES BÁSICAS ---
 if modo == "Operaciones Básicas":
